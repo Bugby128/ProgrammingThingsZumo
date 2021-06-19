@@ -1,0 +1,10 @@
+C:\Users\b7015266\Desktop\Computer Science Final Year\PT\Programming Things 1\GUI\ProgrammingThingsGUI\ProgrammingThingsGUI\bin\Debug\ProgrammingThingsGUI.exe.config
+C:\Users\b7015266\Desktop\Computer Science Final Year\PT\Programming Things 1\GUI\ProgrammingThingsGUI\ProgrammingThingsGUI\bin\Debug\ProgrammingThingsGUI.exe
+C:\Users\b7015266\Desktop\Computer Science Final Year\PT\Programming Things 1\GUI\ProgrammingThingsGUI\ProgrammingThingsGUI\bin\Debug\ProgrammingThingsGUI.pdb
+C:\Users\b7015266\Desktop\Computer Science Final Year\PT\Programming Things 1\GUI\ProgrammingThingsGUI\ProgrammingThingsGUI\obj\Debug\ProgrammingThingsGUI.csprojAssemblyReference.cache
+C:\Users\b7015266\Desktop\Computer Science Final Year\PT\Programming Things 1\GUI\ProgrammingThingsGUI\ProgrammingThingsGUI\obj\Debug\ProgrammingThingsGUI.Form1.resources
+C:\Users\b7015266\Desktop\Computer Science Final Year\PT\Programming Things 1\GUI\ProgrammingThingsGUI\ProgrammingThingsGUI\obj\Debug\ProgrammingThingsGUI.Properties.Resources.resources
+C:\Users\b7015266\Desktop\Computer Science Final Year\PT\Programming Things 1\GUI\ProgrammingThingsGUI\ProgrammingThingsGUI\obj\Debug\ProgrammingThingsGUI.csproj.GenerateResource.cache
+C:\Users\b7015266\Desktop\Computer Science Final Year\PT\Programming Things 1\GUI\ProgrammingThingsGUI\ProgrammingThingsGUI\obj\Debug\ProgrammingThingsGUI.csproj.CoreCompileInputs.cache
+C:\Users\b7015266\Desktop\Computer Science Final Year\PT\Programming Things 1\GUI\ProgrammingThingsGUI\ProgrammingThingsGUI\obj\Debug\ProgrammingThingsGUI.exe
+C:\Users\b7015266\Desktop\Computer Science Final Year\PT\Programming Things 1\GUI\ProgrammingThingsGUI\ProgrammingThingsGUI\obj\Debug\ProgrammingThingsGUI.pdb

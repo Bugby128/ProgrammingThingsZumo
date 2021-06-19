@@ -14,16 +14,17 @@ namespace ProgrammingThingsGUI
     public partial class Form1 : Form
     {
 
-        SerialPort port;
+        SerialPort port;    //Creates a variable to hold the serial port settings
 
         public Form1()
         {
             InitializeComponent();
 
-            port = new SerialPort("COM5", 9600);
-            port.Open();
+            port = new SerialPort("COM5", 9600);    //Sets up the port for my connected USB XBee
+            port.Open();    //Opens the port to allow for communication between the GUI and the Zumo
         }
 
+        //Each of these buttons corresponds to all the zumo robot directions aswell as a stop button
         private void buttonLEFT_Click(object sender, EventArgs e)
         {
             port.Write("L");
