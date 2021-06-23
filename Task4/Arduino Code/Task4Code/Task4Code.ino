@@ -53,23 +53,20 @@ void loop() {
       
       case'L':
       motors.setSpeeds(-150, 150);
-      while((int32_t)turnAngle < turnAngle90) //I use the zumos gyro scope to make sure every turn is exactley 90 degrees clockwise/anti-clockwise
+      while((int32_t)turnAngle < turnAngle90)//I use the zumos gyro scope to make sure every turn is exactley 90 degrees clockwise/anti-clockwise
       {
         turnSensorUpdate();
       }
-      motors.setSpeeds(0,0);
+      zumoAuto = true;  //Sets the Zumo's Automatic navigation flag to true
+      motors.setSpeeds(200, 200);  //Sets the Zumo into motion
       break;
     
       case'R':
       motors.setSpeeds(150, -150);
-      while((int32_t)turnAngle > -turnAngle90)  //I use the zumos gyro scope to make sure every turn is exactley 90 degrees clockwise/anti-clockwise
+      while((int32_t)turnAngle > -turnAngle90)//I use the zumos gyro scope to make sure every turn is exactley 90 degrees clockwise/anti-clockwise
       {
         turnSensorUpdate();
       }
-      motors.setSpeeds(0,0);
-      break;
-      
-      case 'C':
       zumoAuto = true;  //Sets the Zumo's Automatic navigation flag to true
       motors.setSpeeds(200, 200);  //Sets the Zumo into motion
       break;
@@ -91,7 +88,7 @@ void loop() {
     if (lineSensorValues[2] > 150){ //This if detects whether the front central sensor on the zumo detects a line, in which case we have hit the end of a corridor
       motors.setSpeeds(0, 0);  //The zumo stops
       zumoAuto = false; // Automatic navigation exits and the zumo awaits its next response from the GUI
-      Serial1.println("Robot reached the end of corridor, rotate the robot using the L and R buttons, continue using the C button!"); //This sends a message to the text box on the GUI, instructing the user on how to continue
+      Serial1.println("Robot reached the end of corridor, choose which way you would like to turn using the L and R buttons!"); //This sends a message to the text box on the GUI, instructing the user on how to continue
     }
   }
 }
