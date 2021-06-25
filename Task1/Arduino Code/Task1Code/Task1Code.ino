@@ -19,7 +19,7 @@ void loop() {
       break;
     
       case'R':
-      motors.setSpeeds(150, -50);
+      motors.setSpeeds(150, -150);
       break;
       
       case 'D':
